@@ -1,8 +1,11 @@
 
-import './App.css'
-// import ControlFeild from './components/controlfeild/ControlFeild'
-// import FormAction from './components/formAction/FormAction'
-// import SimpleForm from './components/simpleFrom/SimpleForm'
+ import './App.css'
+import ControlFeild from './components/controlfeild/ControlFeild'
+
+import FormAction from './components/formAction/FormAction'
+import HookForm from './components/hookForm/HookForm'
+import Projectstmanegement from './components/productsMAnagement/Projectstmanegement'
+
 import Uncontrolled from './components/uncoltrolled/Uncontrolled'
 
 function App() {
@@ -12,10 +15,13 @@ function App() {
     <>
      
       <h1>Explore react form</h1>
-      {/* <SimpleForm></SimpleForm> */}
+   
       {/* <FormAction></FormAction> */}
-      {/* <ControlFeild></ControlFeild> */}
-      <Uncontrolled></Uncontrolled>
+      
+     {/* <ControlFeild></ControlFeild> */}
+      {/* <Uncontrolled></Uncontrolled> */}
+      {/* <HookForm></HookForm> */}
+      <Projectstmanegement></Projectstmanegement>
      
     </>
   )
