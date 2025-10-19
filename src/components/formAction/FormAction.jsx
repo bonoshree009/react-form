@@ -1,13 +1,15 @@
 import React from 'react';
 
 const FormAction = () => {
-    const handleaction =(formData)=>{
+    const handleaction =(e)=>{
         // console.log(formData)
-        console.log(formData.get('name'))
+       e.preventDefault()
+        //console.log(e.get('name'))
+        console.log(e.target.name.value)
     }
     return (
         <div>
-           <form action={handleaction}>
+           <form onSubmit={handleaction}>
              <input type="text" name='name' placeholder='name'/><br />
             <input type="email" name="email" id=""  placeholder='email'/><br />
             <input type="submit" />

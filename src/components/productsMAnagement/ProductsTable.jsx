@@ -21,7 +21,7 @@ const ProductsTable = ({products}) => {
                         <td>{index +1}</td>
                         <td>{product.name}</td>
                         <td>{product.price}</td>
-                        <td>{product.quanty}</td>
+                        <td>{product.quantity}</td>
                         <td></td>
                     </tr>
                         )
